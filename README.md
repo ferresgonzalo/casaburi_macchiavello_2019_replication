@@ -9,7 +9,7 @@ The folder data contains all the data required to run the codes and produce the 
 
 # run.do
 This code executes all the Stata do files in order. If you run this script, you do not need to run the other Stata do files individually.
-If you want to run the Stata do files individually, follow the instructions at the beginning of each script, where you need to activate two lines of code that will set the directory path. 
+If you want to run the Stata do files individually, follow the instructions at the beginning of each script, where you need to set the directory path 
 
 # 0_install_packages
 This code will install the Stata packages needed to run the other do files
