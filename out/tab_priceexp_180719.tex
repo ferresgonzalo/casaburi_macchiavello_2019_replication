@@ -1,0 +1,28 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{longtable}{l*{6}{c}}
+\caption{\mbox{Price and Liquidity Experiment} \label{tab-bonus}}\\
+\hline\hline\endfirsthead\hline\endhead\hline\endfoot\endlastfoot
+                &\multicolumn{2}{c}{Kg PM}            &\multicolumn{2}{c}{Kg PM (dummy)}    &\multicolumn{2}{c}{Kg AM}            \\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+                &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+\hline
+Post*Bonus ($\gamma$)&                  &    0.128\sym{**} &                  &    0.043\sym{***}&                  &   -0.223         \\
+                &                  &  (0.050)         &                  &  (0.015)         &                  &  (0.283)         \\
+Post*(Bonus+Flexibility) ($\delta$)&                  &    0.245\sym{**} &                  &    0.068\sym{***}&                  &   -0.009         \\
+                &                  &  (0.098)         &                  &  (0.020)         &                  &  (0.316)         \\
+Post            &                  &   -0.008         &                  &   -0.004         &                  &   -0.218         \\
+                &                  &  (0.008)         &                  &  (0.004)         &                  &  (0.211)         \\
+Bonus           &    0.153\sym{**} &                  &    0.047\sym{***}&                  &   -0.319         &                  \\
+                &  (0.062)         &                  &  (0.017)         &                  &  (0.259)         &                  \\
+Bonus+Flexibility&    0.286\sym{***}&                  &    0.074\sym{***}&                  &   -0.281         &                  \\
+                &  (0.105)         &                  &  (0.022)         &                  &  (0.293)         &                  \\
+\hline
+\(R^{2}\)       &    0.186         &    0.038         &    0.252         &    0.054         &    0.506         &    0.011         \\
+p-value $\gamma=\delta$&    0.211         &    0.286         &    0.235         &    0.315         &    0.886         &    0.496         \\
+Control Group Mean (Post Period)&    0.000         &    0.000         &    0.000         &    0.000         &    4.110         &    4.110         \\
+Farmer FE       &                  &        X         &                  &        X         &                  &        X         \\
+Farmers         &      398         &      398         &      398         &      398         &      398         &      398         \\
+Observations    &     1194         &     2388         &     1194         &     2388         &     1194         &     2388         \\
+\hline\hline
+\end{longtable}
+}
