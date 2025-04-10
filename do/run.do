@@ -4,6 +4,8 @@
 cd ".."
 global cm_rep_dir "`c(pwd)'"
 
+set varabbrev on
+
 
 run "do/0_install_packages.do"
 run "do/1_analysis_baseline_survey_180719.do"
