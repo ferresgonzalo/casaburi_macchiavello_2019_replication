@@ -6,8 +6,11 @@ cap log close
 # d ;
 
 		
+	*Activate these two lines of code if you want to run this script individually
+		*cd "..";
+		*global cm_rep_dir "`c(pwd)'";
 	*Set directory;
-		cd "..";
+		cd "$cm_rep_dir";
 	*Locals;
 		local date 180719;
 
