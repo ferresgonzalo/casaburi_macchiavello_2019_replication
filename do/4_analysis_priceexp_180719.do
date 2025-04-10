@@ -1,6 +1,7 @@
 # d cr
 clear
 set more off
+set varabbrev on
 set mem 200m
 cap log close
 # d ;
