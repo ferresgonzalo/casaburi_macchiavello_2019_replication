@@ -6,13 +6,7 @@ cap log close
 # d ;
 		
 		*Set directory;
-			local j 0;
-			foreach path in "C:\Users\lcasaburi\Dropbox\dairy_replication_AER"{;
-				capture cd "`path'";
-				if _rc == 0{; 
-					cd `path';
-				};	
-			};
+			cd "..";
 			
 		*Locals;
 			local date 180719;

@@ -36,5 +36,5 @@ axis([0.3 1 0 0.5])
 xlabel('\delta^Y: Yearly Discount Factor') % x-axis label
 ylabel('\gamma: Monthly Probability Uninformed Farmer') % y-axis label
 print('trader_IC_figure_180719','-depsc')
-movefile('trader_IC_figure_180719.eps','C:\Users\lcasaburi\Dropbox\dairy_replication_AER\out')
+movefile('trader_IC_figure_180719.eps','../out')
 
