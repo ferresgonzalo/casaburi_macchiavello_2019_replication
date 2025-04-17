@@ -1,0 +1,26 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{longtable}{l*{6}{c}}
+\caption{Supply Experiments \label{tab:lif}}\\
+\hline\hline\endfirsthead\hline\endhead\hline\endfoot\endlastfoot
+                &\multicolumn{1}{c}{G1,2}&\multicolumn{1}{c}{G3,4}&\multicolumn{1}{c}{G5,6}&\multicolumn{2}{c}{G1-6}             &\multicolumn{1}{c}{G4,7}\\\cmidrule(lr){2-2}\cmidrule(lr){3-3}\cmidrule(lr){4-4}\cmidrule(lr){5-6}\cmidrule(lr){7-7}
+                &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+\hline
+Non-Guaranteed  &   -0.691\sym{***}&   -0.855\sym{***}&   -0.745\sym{***}&   -0.764\sym{***}&   -0.691\sym{***}&   -0.855\sym{***}\\
+                &  [0.063]         &  [0.048]         &  [0.060]         &  [0.045]         &  [0.063]         &  [0.048]         \\
+Price=50        &                  &                  &                  &    0.027         &    0.109\sym{**} &                  \\
+                &                  &                  &                  &  [0.033]         &  [0.050]         &                  \\
+Price=50 *Non Guaranteed&                  &                  &                  &                  &   -0.164\sym{**} &                  \\
+                &                  &                  &                  &                  &  [0.063]         &                  \\
+Price=60        &                  &                  &                  &    0.064\sym{**} &    0.091\sym{*}  &                  \\
+                &                  &                  &                  &  [0.029]         &  [0.047]         &                  \\
+Price=60 *Non Guaranteed&                  &                  &                  &                  &   -0.055         &                  \\
+                &                  &                  &                  &                  &  [0.061]         &                  \\
+Monthly Payment to Trader&                  &                  &                  &                  &                  &    0.036         \\
+                &                  &                  &                  &                  &                  &  [0.037]         \\
+\hline
+Mean Y Baseline Group&    0.836         &    0.945         &    0.927         &    0.903         &    0.903         &    0.945         \\
+Observations    &      110         &      110         &      110         &      330         &      330         &      165         \\
+\hline\hline
+\end{longtable}
+}
